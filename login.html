@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <script defer src="login.js"></script>
+</head>
+<body>
+  <div class="login-box">
+    <img src="https://upload.wikimedia.org/wikipedia/en/3/3a/Lovely_Professional_University_logo.png" alt="LPU LOGO"/>
+    <h2>Login</h2>
+    <form id="login-form">
+      <div class="user-box">
+        <input type="text" name="username" id="username-field" required="" autocomplete="off" >
+        <label>Email adress/Username</label>
+      </div>
+      <div class="user-box">
+        <input type="password" name="password" required="" autocomplete="off" >
+        <label>Password</label>
+      </div>
+      <div id="login-error-msg">
+        <p id="login-error-msg-1">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+      </div>
+      <a href="#" id="login-form-submit" value="Login" type="submit">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Log in
+      </a>
+      <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Create
+      </a>
+      
+    </form>
+  </div>
+</body>
+</html>
